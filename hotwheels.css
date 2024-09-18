@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Cabin Sketch';
+    src: url('Cabin_Sketch/CabinSketch-Bold.ttf');
+}
+header {
+    background-image: linear-gradient(to top, #ED2516, #EE7309);
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 100px;
+}
+a#whatsapp {
+    width: 30px;
+}
+.Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: #00d757;
+    margin: auto;
+  }
+  
+  .sign {
+    width: 100%;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 25px;
+  }
+  
+  .sign svg path {
+    fill: white;
+  }
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:hover {
+    width: 150px;
+    border-radius: 40px;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:hover .sign {
+    width: 30%;
+    transition-duration: 0.3s;
+    padding-left: 10px;
+  }
+  
+  .Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: 0.3s;
+    padding-right: 10px;
+  }
+  .Btn:active {
+    transform: translate(2px, 2px);
+  }
+  
+main {
+    margin: auto;
+    background-image: url('car-1281698_1280.jpg');
+    background-attachment: fixed;
+    background-color: white;
+    min-height: 300px;
+    max-width: 1000px;
+    border-radius: 15px;
+    padding-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0px;
+    background-image: url('ferrari-2468015_1280.jpg');
+    background-attachment: fixed;
+}
+.espaçamento {
+    text-align: center;
+}
+img {
+    height: 200px;
+    padding: 5px;
+    border-radius: 10px;
+}
+a:link {
+    text-decoration: none;
+}
+h1#titulo {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

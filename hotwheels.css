@@ -80,6 +80,7 @@ a#whatsapp {
 main {
     margin: auto;
     background-image: url('car-1281698_1280.jpg');
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: white;
     min-height: 300px;

@@ -79,7 +79,7 @@ a#whatsapp {
   
 main {
     margin: auto;
-    background-image: url('car-1281698_1280.jpg');
+    background-image: url('ferrari-2468015_1280.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: white;
@@ -92,10 +92,9 @@ main {
 }
 body {
     margin: 0px;
-    background-image: url('ferrari-2468015_1280.jpg');
     background-attachment: fixed;
 }
-.espaçamento {
+.espacamento {
     text-align: center;
 }
 img {

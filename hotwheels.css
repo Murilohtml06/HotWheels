@@ -3,7 +3,7 @@
     src: url('Cabin_Sketch/CabinSketch-Bold.ttf');
 }
 header {
-    background-image: linear-gradient(to left, #ED2516, black, yellow);
+    background-image: linear-gradient(to top, #ED2516, black, yellow);
     color: white;
     text-align: center;
     margin: 0px;

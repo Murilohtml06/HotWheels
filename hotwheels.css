@@ -110,3 +110,24 @@ h1#titulo {
     font-size: 40px;
     font-style: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
+nav > a{
+  padding-top: 10px;
+}
+.box {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-image: url('hotwheels.png');
+  border: 1px solid black;
+  border-radius: 10px;
+}
+button {
+  border: 0px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}

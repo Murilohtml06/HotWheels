@@ -27,6 +27,7 @@ a#whatsapp {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
     background-color: #00d757;
     margin: auto;
+    margin-top: 24px;
   }
   
   .sign {
@@ -194,8 +195,8 @@ img#logo {
   }
   .mobile-menu-icon {
     display: block;
-    margin-left: -410px;
-    margin-top: -120px;
+    margin-left: -374px;
+    margin-top: -146px;
   }
   .mobile-menu-icon button {
     background-color: transparent;
@@ -214,7 +215,10 @@ img#logo {
   }
   .open{
     display: block;
-    background-image: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=259,h=259,fit=crop/A8547JE8GquPKPlK/2-m7VKz19llwUa5Dpb.png');
+    background-image: url('WhatsApp\ Image\ 2024-10-05\ at\ 12.45.18.jpeg');
+    background-position: center;
     border-radius: 10px;
+    margin-top: -89px;
+    width: 276px;
   }
 }

@@ -92,6 +92,7 @@ main {
 }
 body {
     margin: 0px;
+    background-image: url('ferrari-2468015_1920.jpg');
     background-attachment: fixed;
 }
 .espacamento {
@@ -109,6 +110,10 @@ h1#titulo {
     font-family: "Cabin Sketch", sans-serif;
     font-size: 40px;
     font-style: normal;
+}
+h1 {
+  color: white;
+  font-family: sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -196,7 +201,7 @@ img#logo {
   .mobile-menu-icon {
     display: block;
     margin-left: -328px;
-    margin-top: -154px;
+    margin-top: -118px;
   }
   .mobile-menu-icon button {
     background-color: transparent;
@@ -221,4 +226,62 @@ img#logo {
     margin-top: -89px;
     width: 276px;
   }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-content {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carousel-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  z-index: 10;
+}
+
+.prev {
+  left: 0px;
+  position: fixed;
+}
+
+.next {
+  right: 0px;
+  position: fixed;
+}
+p#manutencao {
+  color: white;
+  position: fixed;
+  left: 404px;
 }

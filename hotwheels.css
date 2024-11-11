@@ -272,16 +272,18 @@ img#logo {
 }
 
 .prev {
+  top: 450px;
   left: 0px;
   position: fixed;
 }
 
 .next {
+  top: 450px;
   right: 0px;
   position: fixed;
 }
 p#manutencao {
   color: white;
   position: fixed;
-  left: 404px;
+  left: 480px;
 }

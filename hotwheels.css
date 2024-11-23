@@ -123,9 +123,10 @@ nav > a{
 }
 .box {
   margin: auto;
-  width: 270px;
+  width: 226px;
   height: 200px;
-  background-image: url('hotwheels.png');
+  background-repeat: no-repeat;
+  background-image: url('hotwheels1.jpeg');
   border: 1px solid black;
   border-radius: 10px;
 }

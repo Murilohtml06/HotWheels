@@ -110,6 +110,7 @@ h1#titulo {
     font-family: "Cabin Sketch", sans-serif;
     font-size: 40px;
     font-style: normal;
+    padding-top: 26px;
 }
 h1 {
   color: white;
@@ -147,7 +148,7 @@ button#topo {
   font-weight: bolder;
 }
 img#logo {
-  margin-top: -10px;
+  margin-top: 0px;
   width: 200px;
   height: 56px;
 }
@@ -224,8 +225,10 @@ img#logo {
     background-image: url('WhatsApp\ Image\ 2024-10-05\ at\ 12.45.18.jpeg');
     background-position: center;
     border-radius: 10px;
-    margin-top: -89px;
-    width: 276px;
+    margin-top: -140px;
+    margin-left: -64px;
+    padding: 20px;
+    width: 186px;
   }
 }
 * {

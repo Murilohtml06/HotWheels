@@ -7,7 +7,7 @@ header {
     color: white;
     text-align: center;
     margin: 0px;
-    padding: 100px;
+    padding: 52px;
 }
 a#whatsapp {
   width: 30px;
@@ -202,8 +202,8 @@ img#logo {
   }
   .mobile-menu-icon {
     display: block;
-    margin-left: -308px;
-    margin-top: -118px;
+    margin-left: -356px;
+    margin-top: -76px;
   }
   .mobile-menu-icon button {
     background-color: transparent;
@@ -226,7 +226,7 @@ img#logo {
     background-position: center;
     border-radius: 10px;
     margin-top: -140px;
-    margin-left: -64px;
+    margin-left: -40px;
     padding: 20px;
     width: 186px;
   }

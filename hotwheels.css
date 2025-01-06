@@ -6,8 +6,7 @@ header {
     background-image: linear-gradient(to top, #ED2516, black);
     color: white;
     text-align: center;
-    margin: 0px;
-    padding: 52px;
+    padding: 8px;
 }
 a#whatsapp {
   width: 30px;
@@ -92,11 +91,16 @@ main {
 }
 body {
     margin: 0px;
+    margin: 0px;
+    background-image: url('ferrari-2468015_1920.jpg');
+    background-attachment: fixed;
+  margin: 0px;
     background-image: url('ferrari-2468015_1920.jpg');
     background-attachment: fixed;
 }
 .espacamento {
     text-align: center;
+    padding-left: 14px;
 }
 img {
     height: 200px;
@@ -128,7 +132,7 @@ nav > a{
   height: 200px;
   background-repeat: no-repeat;
   background-image: url('hotwheels1.jpeg');
-  border: 1px solid black;
+  border: 2px solid #ff7600a6;
   border-radius: 10px;
 }
 button {
@@ -139,8 +143,9 @@ button {
   border-radius: 5px;
   padding: 4px 4px;
 }
-div#topo {
-  margin: auto;
+#topo {
+  margin-top: 10px;
+  margin-left: 100px;
 }
 button#topo {
   border: 0px solid black;
@@ -167,8 +172,8 @@ img#logo {
 .nav-list {
   display: flex;
   align-items: center;
-  margin-left: -115px;
-  margin-top: -100px;
+  margin-left: -114px;
+  margin-top: -66px;
 }
 .nav-list ul {
   display: flex;
@@ -242,8 +247,8 @@ img#logo {
   align-items: center;
   position: relative;
   overflow: hidden;
-  width: 80%;
-  margin: 40px auto;
+  width: 100%;
+  margin: 0px auto;
 }
 
 .carousel-wrapper {
@@ -286,8 +291,41 @@ img#logo {
   right: 0px;
   position: fixed;
 }
-p#manutencao {
-  color: white;
-  position: fixed;
-  left: 480px;
+#item1 {
+  background-image: radial-gradient(#B68C1C, #19191B);
+}
+.scroll-container {
+  width: 446px;      
+  height: 324px;     
+  overflow-y: auto;      
+  overflow-x: hidden;    
+  background-image: url(ferrari-2468015_1920.jpg);
+  scroll-behavior: smooth;
+}
+.scroll-container1 {
+  width: 446px;        
+  height: 324px;     
+  overflow-y: auto;      
+  overflow-x: hidden;    
+  scroll-behavior: smooth;
+}
+#size-scroll {
+  padding-right: 100px;
+}
+#topo1 {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;       
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;      
+}
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;         
 }

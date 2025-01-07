@@ -1,131 +1,145 @@
 @font-face {
-    font-family: 'Cabin Sketch';
-    src: url('Cabin_Sketch/CabinSketch-Bold.ttf');
+  font-family: 'Cabin Sketch';
+  src: url('Cabin_Sketch/CabinSketch-Bold.ttf');
 }
+
 header {
-    background-image: linear-gradient(to top, #ED2516, black);
-    color: white;
-    text-align: center;
-    padding: 8px;
+  background-image: linear-gradient(to top, #ED2516, black);
+  color: white;
+  text-align: center;
+  padding: 8px;
 }
+
 a#whatsapp {
   width: 30px;
 }
+
 .Btn {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 45px;
-    height: 45px;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition-duration: 0.3s;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
-    background-color: #00d757;
-    margin: auto;
-    margin-top: 24px;
-  }
-  
-  .sign {
-    width: 100%;
-    transition-duration: 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .sign svg {
-    width: 25px;
-  }
-  
-  .sign svg path {
-    fill: white;
-  }
-  .text {
-    position: absolute;
-    right: 0%;
-    width: 0%;
-    opacity: 0;
-    color: white;
-    font-size: 1.2em;
-    font-weight: 600;
-    transition-duration: 0.3s;
-  }
-  
-  .Btn:hover {
-    width: 150px;
-    border-radius: 40px;
-    transition-duration: 0.3s;
-  }
-  
-  .Btn:hover .sign {
-    width: 30%;
-    transition-duration: 0.3s;
-    padding-left: 10px;
-  }
-  
-  .Btn:hover .text {
-    opacity: 1;
-    width: 70%;
-    transition-duration: 0.3s;
-    padding-right: 10px;
-  }
-  .Btn:active {
-    transform: translate(2px, 2px);
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: #00d757;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.sign {
+  width: 100%;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign svg {
+  width: 25px;
+}
+
+.sign svg path {
+  fill: white;
+}
+
+.text {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}
+
+.Btn:hover {
+  width: 150px;
+  border-radius: 40px;
+  transition-duration: 0.3s;
+}
+
+.Btn:hover .sign {
+  width: 30%;
+  transition-duration: 0.3s;
+  padding-left: 10px;
+}
+
+.Btn:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: 0.3s;
+  padding-right: 10px;
+}
+
+.Btn:active {
+  transform: translate(2px, 2px);
+}
+
 main {
-    margin: auto;
-    background-image: url('ferrari-2468015_1920.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: white;
-    min-height: 300px;
-    max-width: 1000px;
-    padding-top: 10px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  background-image: url('ferrari-2468015_1920.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: white;
+  min-height: 300px;
+  max-width: 1000px;
+  padding-top: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
-    margin: 0px;
-    margin: 0px;
-    background-image: url('ferrari-2468015_1920.jpg');
-    background-attachment: fixed;
   margin: 0px;
-    background-image: url('ferrari-2468015_1920.jpg');
-    background-attachment: fixed;
+  margin: 0px;
+  background-image: url('ferrari-2468015_1920.jpg');
+  background-attachment: fixed;
+  margin: 0px;
+  background-image: url('ferrari-2468015_1920.jpg');
+  background-attachment: fixed;
 }
+
 .espacamento {
-    text-align: center;
-    padding-left: 14px;
+  text-align: center;
+  padding-left: 14px;
 }
+
 img {
-    height: 200px;
-    padding: 5px;
-    border-radius: 10px;
+  height: 200px;
+  padding: 5px;
+  border-radius: 10px;
 }
+
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 h1#titulo {
-    font-family: "Cabin Sketch", sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    padding-top: 26px;
+  font-family: "Cabin Sketch", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  padding-top: 26px;
 }
+
 h1 {
   color: white;
   font-family: sans-serif;
 }
+
 html {
   scroll-behavior: smooth;
 }
-nav > a{
+
+nav>a {
   padding-top: 10px;
 }
+
 .box {
   margin: auto;
   width: 226px;
@@ -135,6 +149,7 @@ nav > a{
   border: 2px solid #ff7600a6;
   border-radius: 10px;
 }
+
 button {
   border: 0px;
   margin: 10px;
@@ -143,47 +158,57 @@ button {
   border-radius: 5px;
   padding: 4px 4px;
 }
+
 #topo {
   margin-top: 10px;
   margin-left: 100px;
 }
+
 button#topo {
   border: 0px solid black;
   width: 50px;
   font-weight: bolder;
 }
+
 img#logo {
   margin-top: 0px;
   width: 200px;
   height: 56px;
 }
-.nav-bar{
+
+.nav-bar {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 6rem;
 }
-.menu{
+
+.menu {
   display: flex;
   align-items: center;
 }
+
 .menu h1 {
   color: white;
 }
+
 .nav-list {
   display: flex;
   align-items: center;
   margin-left: -114px;
   margin-top: -66px;
 }
+
 .nav-list ul {
   display: flex;
   justify-content: center;
   list-style: none;
 }
+
 .nav-item {
   margin: 0 15px;
 
 }
+
 .nav-link {
   text-decoration: none;
   font-size: 1.15rem;
@@ -192,40 +217,49 @@ img#logo {
   color: rgb(20, 19, 19);
   font-weight: bolder;
 }
+
 .mobile-menu-icon {
   display: none
 }
+
 .mobile-menu {
   display: none;
 }
+
 @media screen and (max-width: 730px) {
   .nav-bar {
     padding: 1.5rem 4rem;
   }
+
   .nav-item {
     display: none;
   }
+
   .mobile-menu-icon {
     display: block;
     margin-left: -356px;
     margin-top: -76px;
   }
+
   .mobile-menu-icon button {
     background-color: transparent;
     border: none;
     cursor: pointer;
   }
+
   .mobile-menu ul {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 1rem;
   }
+
   .mobile-menu .nav-item {
     display: block;
     padding-top: 1.2rem;
   }
-  .open{
+
+  .open {
     display: block;
     background-image: url('WhatsApp\ Image\ 2024-10-05\ at\ 12.45.18.jpeg');
     background-position: center;
@@ -236,6 +270,7 @@ img#logo {
     width: 186px;
   }
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -291,41 +326,50 @@ img#logo {
   right: 0px;
   position: fixed;
 }
+
 #item1 {
   background-image: radial-gradient(#B68C1C, #19191B);
 }
+
 .scroll-container {
-  width: 446px;      
-  height: 800px;     
-  overflow-y: auto;      
-  overflow-x: hidden;    
+  width: 446px;
+  height: 800px;
+  overflow-y: auto;
+  overflow-x: hidden;
   background-image: url(ferrari-2468015_1920.jpg);
   scroll-behavior: smooth;
 }
+
 .scroll-container1 {
-  width: 446px;        
-  height: 800px;     
-  overflow-y: auto;      
-  overflow-x: hidden;    
+  width: 446px;
+  height: 800px;
+  overflow-y: auto;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
 #size-scroll {
   padding-right: 100px;
 }
+
 #topo1 {
   margin-top: 10px;
   margin-left: 100px;
 }
+
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-track {
-  background: transparent;       
+  background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background: transparent;
-  border-radius: 4px;      
+  border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background: transparent;         
+  background: transparent;
 }
